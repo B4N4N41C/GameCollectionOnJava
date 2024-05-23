@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane prefHeight="259.0" prefWidth="325.0" xmlns="http://
-javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="ru.mochalin.laba6.CardView">
+
+<AnchorPane prefHeight="259.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mochalin.laba6.controllers.CardController">
     <children>
-        <ImageView fitHeight="187.0" fitWidth="325.0"
-                   pickOnBounds="true" preserveRatio="true"
-                   AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
-                   AnchorPane.topAnchor="0.0" />
-        <Label text="Label" AnchorPane.topAnchor="200.0" />
-        <Label text="Label" AnchorPane.topAnchor="225.0" />
+        <ImageView fx:id="imgView" fitHeight="187.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+        <Label fx:id="nameLabel" text="Label" AnchorPane.topAnchor="200.0" />
+        <Label fx:id="summaryLabel" text="Label" AnchorPane.topAnchor="225.0" />
     </children>
 </AnchorPane>

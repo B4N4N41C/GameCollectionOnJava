@@ -19,7 +19,7 @@ public class GameDao implements Dao<Game> {
                         new Game(
                                 rs.getLong("id"),
                                 rs.getString("name"),
-                                rs.getString("summaty"),
+                                rs.getString("summary"),
                                 rs.getInt("mark"),
                                 rs.getString("photo"),
                                 rs.getTimestamp("created_date")

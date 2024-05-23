@@ -42,7 +42,7 @@ public class MainApplication extends Application {
             //TODO: Вывести Alert
         }
         this.mainStage = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("main-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("/ru/mochalin/laba6/fxmls/main-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 400);
         stage.setTitle("Hello!");
         stage.setScene(scene);

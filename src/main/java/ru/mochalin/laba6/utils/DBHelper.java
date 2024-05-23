@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DBHelper {
-    private static String DB_URL = "jdbc:mysql://localhost:3306/institut";
+    private static String DB_URL = "jdbc:mysql://localhost:3306/games";
     private static String LOGIN = "root";
     private static String PASS = "Kolia977";
 
