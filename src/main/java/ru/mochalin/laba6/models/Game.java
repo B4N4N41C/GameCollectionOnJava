@@ -16,4 +16,6 @@ public class Game {
     int mark;
     String photo;
     Timestamp created;
+    public Game() {this(0, "", "", 0, "", new Timestamp(System.currentTimeMillis()));
+    }
 }

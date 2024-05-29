@@ -15,4 +15,5 @@ public class Collections {
     String name;
     String summary;
     Timestamp created;
+    public Collections() {this(0, "", "", "", new Timestamp(System.currentTimeMillis()));}
 }

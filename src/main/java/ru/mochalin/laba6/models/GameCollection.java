@@ -11,4 +11,6 @@ public class GameCollection {
     long id;
     long gameId;
     long collectionId;
+
+    public GameCollection() {this(0, 0, 0);}
 }
