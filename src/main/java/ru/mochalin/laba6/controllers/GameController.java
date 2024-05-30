@@ -11,7 +11,10 @@ import ru.mochalin.laba6.MainApplication;
 import ru.mochalin.laba6.models.Game;
 
 import java.io.File;
-
+/**
+ * Данный контроллер является модальным окном которое вызывается при нажатии на кнопку
+ * создания новой игры в классе MainController.
+ */
 public class GameController {
 
     private Game game;

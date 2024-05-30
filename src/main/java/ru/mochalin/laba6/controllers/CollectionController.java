@@ -10,7 +10,10 @@ import ru.mochalin.laba6.models.Collections;
 import ru.mochalin.laba6.models.Game;
 
 import java.io.File;
-
+/**
+ * Данный контроллер является модальным окном которое вызывается при нажатии на кнопку
+ * создания новой подборки в классе MainController.
+ */
 public class CollectionController {
     private Collections collection;
 

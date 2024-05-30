@@ -18,7 +18,9 @@ import ru.mochalin.laba6.models.Game;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Данный контроллер является основным контроллером программы.
+ */
 public class MainController {
     private Parent card;
     private List<Parent> views = new ArrayList<>();

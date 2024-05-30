@@ -18,7 +18,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Данный контроллер является модальным окном которое вызывается при нажатии на кнопку
+ * открытия подборки в классе MainController.
+ */
 public class GameInCollectionController {
 
     @Setter

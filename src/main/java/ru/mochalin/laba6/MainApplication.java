@@ -9,6 +9,8 @@ import ru.mochalin.laba6.utils.DBHelper;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 import static javafx.application.Application.launch;
 
@@ -42,9 +44,12 @@ public class MainApplication extends Application {
             //TODO: Вывести Alert
         }
         this.mainStage = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("/ru/mochalin/laba6/fxmls/main-view.fxml"));
+        ResourceBundle bundle = ResourceBundle.getBundle("main",
+                Locale.getDefault());
+
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("/ru/mochalin/laba6/fxmls/main-view.fxml"), bundle);
         Scene scene = new Scene(fxmlLoader.load(), 800, 400);
-        stage.setTitle("Hello!");
+        stage.setTitle(bundle.getString("app.title"));
         stage.setScene(scene);
         stage.show();
     }

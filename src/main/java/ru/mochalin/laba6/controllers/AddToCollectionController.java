@@ -19,6 +19,10 @@ import ru.mochalin.laba6.models.GameCollection;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Данный контроллер является модальным окном которое вызывается при нажатии на кнопку
+ * добавления игры в подборку в классе MainController.
+ */
 public class AddToCollectionController {
     CollectionDao collectionDao = new CollectionDao();
     GameCollectionDao gameCollectionDao = new GameCollectionDao();

@@ -12,7 +12,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
+/**
+ * Класс GameCollectionDao не наследуется от интерфейса Dao, так как имеет специфическую реализации,
+ * из-за того что GameCollectionDao реализует взаимодействие с таблицей, которая является связью между
+ * двуя другими таблицами.
+ * @author Николай Мочалин
+ */
 public class GameCollectionDao {
     protected List<GameCollection> mapper(ResultSet rs) {
         List<GameCollection> list = new ArrayList<>();

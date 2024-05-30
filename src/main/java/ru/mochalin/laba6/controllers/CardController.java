@@ -21,7 +21,9 @@ import ru.mochalin.laba6.models.Game;
 import ru.mochalin.laba6.models.GameCollection;
 
 import java.io.IOException;
-
+/**
+ * Данный контроллер является контейнером для информации, которая впоследствии выводиться в виде карточки.
+ */
 public class CardController {
     @FXML
     private Button delete;
